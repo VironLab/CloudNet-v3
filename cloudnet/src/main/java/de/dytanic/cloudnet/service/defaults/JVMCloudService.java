@@ -126,6 +126,7 @@ final class JVMCloudService extends DefaultMinecraftCloudService implements IClo
                 // sys properties
                 "-Djline.terminal=jline.UnsupportedTerminal",
                 "-Dfile.encoding=UTF-8",
+                "-Dclient.encoding.override=UTF-8",
                 "-Dde.dytanic.cloudnet.wrapper.relocate.io.netty.packagePrefix=de.dytanic.cloudnet.wrapper.relocate.",
                 "-DIReallyKnowWhatIAmDoingISwear=true",
                 "-Dcloudnet.wrapper.messages.language=" + LanguageManager.getLanguage()
